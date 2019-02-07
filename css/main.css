@@ -384,17 +384,82 @@ body {
 .memFun{
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-end;
+	position: relative;
 	width: 1064px;
-	margin-left: 8px;
+	margin-left: 10px;
 	margin-top: 20px;
 }
 
+.membership {
+	margin-left: 5px;
+	width: 500px;
+	position: relative;
+	margin-right: 10px;
+}
+
+.membership p {
+	font-family: 'Kodchasan', sans-serif;
+	font-size: 20px;
+	line-height: 20px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	opacity: 0;
+	padding-bottom: 470px;
+	font-weight: bold;
+}
+
+.membership p:hover {
+	opacity: 1;
+}
+
+.membership img:hover {
+	opacity: 0;
+}
+
+.funds {
+	margin-left: 20px;
+	position: relative;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.funds p {
+	font-family: 'Kodchasan', sans-serif;
+	line-height: 20px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	opacity: 0;
+	padding-bottom: 490px;
+}
+
+.funds a {
+	color: black;
+}
+
+.funds p:hover {
+	opacity: 1;
+}
+
+.funds img:hover {
+	opacity: 0;
+}
+
 .weDo {
-	padding: 25px;
+	position: relative;
+	top: 10px;
+	left: 0px;
+	margin: 0px 10px 0 10px;
+	padding-top: 20px;
+	color: black;
 }
 
 .weDo h2 {
+	position: absolute;
+	top: 10px;
+	left: 10px;
 	font-family: 'Kodchasan', sans-serif;
 	font-size: 30px;
 	text-align: center;
@@ -402,16 +467,22 @@ body {
 }
 
 .weDo h3 {
+	position: absolute;
 	font-family: 'Kodchasan', sans-serif;
 	font-size: 25px;
+	top: 65px;
+	left: 10px;
 	text-align: center;
 	margin-top: 30px;
 }
 
 .weDo p {
+	position: absolute;
+	left: 10px;
+	top: 120px;
 	font-family: 'Kodchasan', sans-serif;
 	font-size: 25px;
-	text-align: center;
+	text-align: left;
 	margin-top: 20px;
 	padding:
 	align-content: space-between;
@@ -419,23 +490,43 @@ body {
 }
 
 .history {
-	padding: 25px;
+	position: relative;
+	top: 10px;
+	left: 0px;
+	margin: 0px 10px 0 10px;
+	padding-top: 20px; 
+	color: white;
 }
 
 .history h2 {
+	position: absolute;
+	top: 10px;
+	left: 10px;
 	font-family: 'Kodchasan', sans-serif;
-	font-size: 28px;
+	font-size: 30px;
 	text-align: center;
-	margin-top: 50px;
-	margin-bottom: 20px;
+	margin-top: 40px;
 }
 
 .history p {
+	position: absolute;
+	left: 10px;
+	top: 120px;
 	font-family: 'Kodchasan', sans-serif;
-	font-size: 25px;
-	text-align: center;
-	margin-top: 20px;
-	padding:
+	font-size: 20px;
+	text-align: left;
+	margin-top: 0px;
+	padding-right: 10px;
 	align-content: space-between;
 	line-height: 30px;
+	/*opacity: 0;
 }
+
+.history p:hover {
+	opacity: 1;
+}*/
+
+
+
+
+
