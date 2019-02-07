@@ -56,6 +56,68 @@ body {
 	width: 220px;
 }
 
+ svg {
+	animation-name: logo_anim;
+	animation-duration: 1.8s;
+	animation-iteration-count: 1;
+}
+
+@keyframes logo_anim {
+	0% {
+		transform: rotateY(0deg);
+	}
+	100% {
+		transform: rotateY(360deg);
+	}
+}
+
+.st4, .st0, .st5, .st6 {
+	animation-name: first_anim;
+	animation-duration: 3s;
+	animation-iteration-count: 1;
+	animation-delay: 0.2s;
+	animation-timing-function: linear;
+	/*animation-timing-function: ease-in;*/
+}
+
+@keyframes first_anim {
+	0% {
+		 stroke: white;
+	}
+	25% {
+		stroke: turquoise;
+	}
+	50% {
+		stroke: white;
+	}
+	75% {
+		stroke: turquoise;
+	}
+	100% {
+		stroke: #51C3C7;
+	}
+}
+
+.st1, .st2, .st3, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14, .st15, .st16, .st17, .st18 {
+	animation-name: second_anim;
+	animation-duration: 3s;
+	animation-iteration-count: 1;
+	animation-delay: 0.2s;
+	animation-timing-function: linear;
+	animation-timing-function: ease-in;
+}
+
+@keyframes second_anim {
+	0% {
+		 opacity: 0;
+		 transform: scale(0%);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(100%);
+	}
+}
+
 .mainNav {
 	width: 1080px;
 	justify-content: center;
@@ -328,5 +390,52 @@ body {
 	margin-top: 20px;
 }
 
-.membership
+.weDo {
+	padding: 25px;
+}
 
+.weDo h2 {
+	font-family: 'Kodchasan', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.weDo h3 {
+	font-family: 'Kodchasan', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.weDo p {
+	font-family: 'Kodchasan', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 20px;
+	padding:
+	align-content: space-between;
+	line-height: 30px;
+}
+
+.history {
+	padding: 25px;
+}
+
+.history h2 {
+	font-family: 'Kodchasan', sans-serif;
+	font-size: 28px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.history p {
+	font-family: 'Kodchasan', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 20px;
+	padding:
+	align-content: space-between;
+	line-height: 30px;
+}
