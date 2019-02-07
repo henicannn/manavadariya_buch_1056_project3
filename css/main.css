@@ -5,7 +5,7 @@ html {
 }
 
 body {
-	background: linear-gradient(0deg, #C5FFFC, #FF81B0);
+	background: linear-gradient(0deg, #AED9FF, #FF81B0);
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -27,7 +27,7 @@ body {
   height: auto;
   margin: 0 auto;
   background-color: #ee3621;
-  background: linear-gradient(0deg, #2DEFFF, #FF1A66);
+  background: linear-gradient(0deg, #8BD6FF, #FF1A66);
   padding: 0px;
   padding-top: 10px;
  }
@@ -97,15 +97,23 @@ body {
 }
 
 .mainFooter {
+	background: url(../images/footerImg.jpg);
+	margin-top: 20px;
 	width: 1080px;
 	justify-content: center;
+	display: flex;
+	flex-direction: column;
 }
 
 .footerNav ul {
+	word-spacing: 5px;
+	width: 1080px;
 	list-style-type: none;
-	padding: 0;
+	padding: 0px;
 	overflow: hidden;
 	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
 }
 
 .footerNav ul li {
@@ -136,16 +144,19 @@ body {
 
 }
 
-#iconNav
-{
-  list-style: none;
+#iconNav {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	list-style: none;
   margin: 0;
   padding: 0
 }
 
 #iconNav li
-{
-  margin-right: 10px;
+{	margin-left: 10px;
+	margin-top: 20px;
+	margin-right: 10px;
 }
 
 #iconNav li a
@@ -156,6 +167,19 @@ body {
 #iconNav li a:hover
 {
   filter: grayscale(0%);
+}
+
+#copyText {
+	margin-left: 60px;
+	padding-left: 0px;
+	color: #000;
+	margin-top: 10px;
+	font-size: 10px;
+	padding-bottom: 10px;
+}
+
+.copyRight {
+	margin-left:800px;
 }
 
 .welcome {
